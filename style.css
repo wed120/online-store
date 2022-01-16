@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  height: 75px;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  padding: 18px 0 0 0;
+}
+
+.search_button {
+  padding: 28.21px 0 0 41px;
+}
+
+.sidebar_button {
+  padding: 30px 0 0 859px;
+}
+
+.personalAccount_button {
+  padding: 26px 0 0 33px;
+}
+
+.cart_button {
+  padding: 26px 0 0 33px;
+}
+
+.brand {
+  height: 764px;
+  background-color: #f1e4e6;
+  display: flex;
+}
+
+.brand_img {
+  padding-left: 4px;
+}
+
+.brand_title {
+  padding: 289.9px 0 0 63.42px;
+  display: flex;
+}
+
+.brand_title span {
+  color: #f16d7f;
+}
+
+.brand_header {
+  padding-left: 16px;
+}
+
+.brand_header :first-child {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.brand_header :last-child {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media all and (max-width: 768px) {
+  header {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    padding: 18px 0 0 16px;
+  }
+
+  .search_button {
+    padding: 28.21px 0 0 41px;
+  }
+
+  .sidebar_button {
+    padding: 25px 0 0 200px;
+  }
+
+  .personalAccount_button {
+    display: none;
+  }
+
+  .cart_button {
+    display: none;
+  }
+
+  .brand {
+    height: 764px;
+    background-color: #f1e4e6;
+    display: flex;
+    justify-content: center;
+  }
+
+  .brand_img {
+    display: none;
+  }
+
+  .brand_title {
+    padding: 289.9px 0 0 63.42px;
+    display: flex;
+  }
+
+  .brand_title span {
+    color: #f16d7f;
+  }
+
+  .brand_header {
+    padding-left: 16px;
+  }
+
+  .brand_header :first-child {
+    font-weight: 900;
+    font-size: 48px;
+  }
+
+  .brand_header :last-child {
+    font-weight: 700;
+    font-size: 32px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  header {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    padding: 18px 0 0 32px;
+  }
+
+  .search_button {
+    padding: 28.21px 0 0 41px;
+  }
+
+  .sidebar_button {
+    padding: 31px 0 0 424px;
+  }
+
+  .personalAccount_button {
+    padding: 27px 0 0 25px;
+  }
+
+  .cart_button {
+    padding: 27px 0 0 42px;
+  }
+
+  .brand {
+    height: 368px;
+    background-color: #f1e4e6;
+    display: flex;
+  }
+
+  .brand_img {
+    height: 368px;
+  }
+
+  .brand_title {
+    padding: 138px 0 0 39px;
+    display: flex;
+  }
+
+  .brand_title span {
+    color: #f16d7f;
+  }
+
+  .brand_header {
+    padding-left: 16px;
+  }
+
+  .brand_header :first-child {
+    font-weight: 900;
+    font-size: 44px;
+  }
+
+  .brand_header :last-child {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
